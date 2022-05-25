@@ -6,8 +6,8 @@ const orderedNumber = (number) => {
     
     const odds = numberArray.filter(item => item % 2 !==0).sort((a,b) => b - a );
     const evens = numberArray.filter(item => item % 2 ===0).sort((a,b) => a - b );
-    console.log(odds, evens);
-    return null;
+    
+    return evens.concat(odds).join();
   }
   
   console.log(orderedNumber(540613788));
