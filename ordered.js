@@ -11,3 +11,4 @@ const orderedNumber = (number) => {
   }
   
   console.log(orderedNumber(540613788));
+
